@@ -1,0 +1,35 @@
+@media only screen and (max-width: 767px){
+	.responsive_icon a {
+		color: #fff;
+		display: inline-block;
+		float: left;
+		margin-top: -1px;
+		padding: 18px 5px;
+
+	}
+
+	.icon a{
+		color: #dedede;
+		display: none;
+		padding: 15px 5px;
+	}
+	
+
+}
+
+@media only screen and (max-width: 479px){
+	.col-md-3.one,.col-md-3.two,.col-md-3.three,.col-md-3.four,.col-md-3.five,.col-md-3.six,.col-md-3.seven,.col-md-3.eight {
+		height: 145px;
+	}
+
+	.one span i,.two span i,.three span i,.four span i,.five span i,.six span i,.seven span i,.eight span i{
+		margin-top: 25%;
+	}
+
+	.slide_2 > p{
+		font-size: 15px ;
+	}
+	.slide_2 > i {
+		margin-bottom: 65px;
+	}
+}
